@@ -1,3 +1,9 @@
+/**
+* Template Name: KnightOne - v4.7.0
+* Template URL: https://bootstrapmade.com/knight-simple-one-page-bootstrap-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
 (function() {
   "use strict";
 
@@ -175,9 +181,9 @@
         itemSelector: '.portfolio-item'
       });
 
-      let portfolioFilters = select('#portfolio-filters li', true);
+      let portfolioFilters = select('#portfolio-flters li', true);
 
-      on('click', '#portfolio-filters li', function(e) {
+      on('click', '#portfolio-flters li', function(e) {
         e.preventDefault();
         portfolioFilters.forEach(function(el) {
           el.classList.remove('filter-active');
